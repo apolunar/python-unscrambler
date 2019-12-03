@@ -30,9 +30,6 @@ possible_words = set()
 while True:
     letters = input("Enter letters : ")
 
-    if letters == "stop":
-        break
-
     lettersSorted = ''.join(sorted(letters))
 
     wordsfound = english_words.get(lettersSorted)
